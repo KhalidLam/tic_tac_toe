@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class TicTacToe
 
   def initialize(board = nil)
@@ -111,3 +113,6 @@ class TicTacToe
   end
 
 end
+
+TicTacToe1 = TicTacToe.new
+TicTacToe1.play
